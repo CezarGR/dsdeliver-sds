@@ -18,3 +18,8 @@
   .footer-icons > * {
     margin-right: 5px;
   }
+
+  .git{
+    color: white;
+    text-transform: uppercase;
+  }

@@ -5,7 +5,9 @@ import {ReactComponent as Linkedin} from './linkedin.svg';
 function Footer(){
     return(
         <footer className="main-footer">
-            App desenvolvido durante a 2ª ed. do evento Semana DevSuperior
+            <a href="https://github.com/CezarGR" target="_new" className="git">
+              My GitHub  
+            </a>
             <div className="footer-icons">
                 <a href="https://www.linkedin.com/in/cesarrodrigues-/" target="_new">
                     <Instagram/>

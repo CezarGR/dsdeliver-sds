@@ -1,7 +1,7 @@
 import axios from "axios";
 import { OrderPayload } from "./types";
 
-const API_URI = 'https://cesar-dsdeliry.herokuapp.com';
+const API_URI = process.env.REACT_APP_API_URL;
 const mapboxToken = process.env.REACT_APP_ACCESS_TOKEN_MAP_BOX;
 export function fetchProducts(){
     return axios(`${API_URI}/products`)

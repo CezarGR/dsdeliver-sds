@@ -9,10 +9,10 @@ function Footer(){
               My GitHub  
             </a>
             <div className="footer-icons">
-                <a href="https://www.linkedin.com/in/cesarrodrigues-/" target="_new">
+                <a href="https://www.instagram.com/cesar_lourenzo/" target="_new">
                     <Instagram/>
                 </a>
-                <a href="https://www.instagram.com/Cesar_Lourenço/" target="_new">
+                <a href="https://www.linkedin.com/in/cesarrodrigues-/" target="_new">
                     <Linkedin/>
                 </a>
             </div>

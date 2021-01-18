@@ -14,7 +14,7 @@ import { Order } from '../types';
 export default function Orders() {
 
     const [orders, setOrders] = useState<Order[]>([])
-    const [isLoading, setIsLoading] = useState(true);
+    const [isLoading, setIsLoading] = useState(false);
     const navigation = useNavigation();
     const isFocused = useIsFocused();
 

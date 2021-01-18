@@ -3,8 +3,8 @@ import AppLoading from 'expo-app-loading';
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
-import Hearde from './src/Hearde';
-import Home from './src/Home';
+
+import Routes from './src/Routes';
 
 export default function App() {
 
@@ -19,9 +19,8 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Hearde/>
       <StatusBar style="inverted" />
-      <Home/>
+      <Routes/>
     </View>
   );
 }
